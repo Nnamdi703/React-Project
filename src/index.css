@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  background-color: #a1c3ff;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color:whitesmoke
+}
+
+a:hover{
+  color: #3474e6;
+}
+
+/* first page */
+
+.Nbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  gap: 10px;
+  background-color: #0a51cc;
+  height: 80px;
+  overflow: hidden;
+}
+
+.Nbar h1{
+  background-color: #0a51cc;
+  color: whitesmoke;
+}
+
+.gimage{
+  font-size: 30px;
+  background-color: #0a51cc;
+  border: none;
+  outline: none;
+}
+
+/* buttons for Next and bio */
+  .buttons{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.boxes{
+  margin: 40px auto;
+  width: 1800px;
+  height: 400px; 
+  background-color: #0a51cc; 
+  padding-top: 10px; 
+  padding-left:10px ;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 3;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  } 
+
+  .name{
+    background-color: #0a51cc;
+  }
+
+  .date{
+    background-color: #0a51cc;
+
+  }
+
+  .language{
+    background-color: #0a51cc;
+
+  } 
+
+  .visibility{
+    font-style: italic;
+    background-color: #0a51cc;
+
+  }
+
+  .boxes-2 Link{
+    margin-bottom: 20px;
+  }
+
+  .buttons{
+    margin-bottom: 90px;
+  }
+
+ .next{
+  background-color: #0a51cc;
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.view{
+  background-color: #0a51cc;
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+} 
+
+/* ------------------End of first page ------- */
+
+/* page Two */
+
+.boxes-2{
+  margin: 30px auto;
+  width: 1800px;
+  height: 500px; 
+  background-color: #0a51cc; 
+  padding-top: 10px; 
+  padding-left:10px ;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 3;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+.name-2{
+  background-color: #0a51cc;
+}
+
+.date-2{
+  background-color: #0a51cc;
+
+}
+
+.language-2{
+  background-color: #0a51cc;
+
+} 
+
+.visibility-2{
+  font-style: italic;
+  background-color: #0a51cc;
+
+}
+
+.lin-2{
+  background-color: #0a51cc;
+}
+
+
+.next-2{
+  background-color: #0a51cc;
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-top: 30px
+}
+
+.view-2{
+  background-color: #0a51cc;
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+  outline: none;
+  margin-top: 30px;
+}
+
+.las-2{
+  display: flex;
+  justify-content: center;
+}
+
+.back{
+  background-color: #0a51cc;
+  padding: 10px 50px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+  outline: none;
+  text-align: center;
+}
+
+  .footer{
+    margin-top: 30px;
+  }
+
+  .footer p{
+    background-color: #0a51cc;
+    color: whitesmoke;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }  
+
+  /* ------------Error - page--------------- */
+
+  .error-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 40px;
+    margin: 20px;
+    overflow: hidden;
+  
+  }
+
+  .err{
+    font-size: 50px;
+    margin-bottom: 70px;
+  }
+
+  .span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    margin-top: 30px;
+  }
+
+  .error-bac{
+    margin-bottom: 125px;
+    background-color: #0a51cc;
+    padding: 10px 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    outline: none;
+  }
+  /* ---------End of Error - page------------------ */
+
+@media screen and (min-width: 320px) {
+
+  .Nbar{
+    /* background-color: red; */
+    padding-top: 0;
+    font-size: 25px;
+  }
+
+.gimage{
+  font-size: 25px;
+}
+
+.boxes{
+  margin: 40px auto;
+  width: 300px;
+  height: 250px; 
+  padding-top: 10px; 
+  padding-left:10px ;
+  line-height: 3;
+  font-size: 20px;
+  }
+
+  .boxes-2{
+    margin: 40px auto;
+    width: 300px;
+    height: 350px; 
+    padding-top: 10px; 
+    padding-left:10px ;
+    line-height: 3;
+    font-size: 20px;
+    }
+
+  .buttons{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+.buttons{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  gap: 20px;
+  margin-top: 40px;
+  }
+
+.next{
+    padding: 6px 30px;
+    font-size: 15px;
+  }
+
+.next-2{
+    padding: 6px 40px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+.view{
+    padding: 6px 40px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+.view-2{
+    padding: 6px 40px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .back{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 30px;
+    margin-top: -50px;
+    font-size: 15px;
+  
+  }
+
+  .footer p{
+    font-size: 10px;
+  } 
+
+  .error-page{
+    line-height: 2;
+    font-size: 20px;
+  }
+
+  .err{
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+
+  .span{
+    margin-top: 30px;
+  }
+
+  .error-bac{
+    margin-bottom: 37px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .Nbar{
+    /* background-color: red; */
+    padding-top: 5px;
+    font-size: 50px;
+  }
+
+  .gimage{
+    font-size: 50px;
+  }
+
+  .boxes{
+    margin: 40px auto;
+    width: 600px;
+    height: 400px; 
+    padding-top: 10px; 
+    padding-left:20px ;
+    line-height: 3;
+    font-size: 30px;
+  }
+
+  .boxes-2{
+    margin: 40px auto;
+    width: 600px;
+    height: 500px; 
+    padding-top: 10px; 
+    padding-left:20px ;
+    line-height: 3;
+    font-size: 30px;
+  }
+
+  .buttons{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    gap: 30px;
+    margin-top: 40px;
+  }
+      
+  .next{
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+
+  .next-2{
+    padding: 10px 40px;
+    font-size: 15px;
+  }
+      
+  .view{
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .view-2{
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .footer p{
+    font-size: 15px;
+  } 
+
+  .error-page{
+    line-height: 2;
+    font-size: 30px;
+  }
+
+  .err{
+    font-size: 60px;
+    margin-bottom: 23px;
+  }
+
+  .span{
+    margin-top: 20px;
+  }
+
+  .error-bac{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .Nbar{
+    font-size: 60px;
+  }
+
+  .Nbar h1{
+    padding-top: 3px;
+  }
+
+  .gimage{
+    font-size: 60px;
+  }
+
+  .boxes{
+    margin: 40px auto;
+    width: 900px;
+    height: 500px; 
+    padding-top: 10px; 
+    padding-left:20px ;
+    line-height: 3;
+    font-size: 40px;
+  }
+
+  .boxes-2{
+    margin: 40px auto;
+    width: 900px;
+    height: 650px; 
+    padding-top: 10px; 
+    padding-left:20px ;
+    line-height: 3;
+    font-size: 40px;
+  }
+
+  .buttons{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    gap: 30px;
+    margin-top: 40px;
+    }
+  
+  .next{
+      padding: 20px 70px;
+      font-size: 30px;
+    }
+
+  .next-2{
+      padding: 20px 70px;
+      font-size: 30px;
+    }
+  
+  .view{
+    padding: 20px 70px;
+    font-size: 30px;
+    }
+
+  .view-2{
+    padding: 20px 70px;
+    font-size: 30px;
+    }
+
+    .back{
+      padding: 10px 60px;
+      font-size: 30px;
+    }
+
+    .footer p{
+      font-size: 15px;
+    } 
+    
+    .error-page{
+      line-height: 2;
+      font-size: 40px;
+    }
+  
+    .err{
+      font-size: 80px;
+      margin-bottom: 50px;
+    }
+  
+    .span{
+      margin-top: 40px;
+    }
+  
+    .error-bac{
+      margin-bottom: 67px;
+      text-align: center;
+      font-size: 20px;
+    }
+}
